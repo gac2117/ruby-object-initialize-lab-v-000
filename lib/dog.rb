@@ -7,7 +7,7 @@ class Dog
   def dog= (dog)
     name, breed = dog.split
     @name = name
-    @breed = breed
+    @breed = breed || "Mutt"
   end
 
   def dog
